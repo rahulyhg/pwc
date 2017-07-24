@@ -4368,11 +4368,11 @@ tbody.collapse.show {
 }
 
 .navbar-inverse .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: #FED973;
 }
 
 .navbar-inverse .navbar-nav .nav-link.disabled {
@@ -5834,8 +5834,9 @@ button.close {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel-item {
@@ -6121,7 +6122,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .bg-inverse {
-  background-color: #292b2c !important;
+  background-color: #7E834A !important;
 }
 
 a.bg-inverse:focus, a.bg-inverse:hover {

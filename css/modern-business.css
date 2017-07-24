@@ -2,6 +2,16 @@
  * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ *
+ *  Green1: #7E834A;
+ *  Green2: ;
+ *  BG1: #F6F0E5;
+ *  BG2: #F2E9D3;
+ *  Brown1: #484339;
+ *  Brown2: #D3AC7A;
+ *  Brown3: #C9A474;
+ *  Brown4: #544531;
+ *  Yellow: #FED973;
  */
 
 body {
@@ -16,7 +26,7 @@ body {
 }
 
 .carousel-item {
-    height: 65vh;
+    height: 60vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -28,3 +38,17 @@ body {
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+.carousel-bg {
+    width: 100%;
+    height: 30vh;
+    min-height: 150px;
+    position: absolute;
+    background-color: #7E834A;
+    background-image: url("../images/bg-pattern-leaf.png");
+}
+
+.bg-inverse {
+    background-image: url("../images/bg-pattern-leaf.png");
+}
+
