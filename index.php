@@ -7,7 +7,7 @@ require("includes/head.php")
     <?php
     require("includes/nav-top.php")
     ?>
-
+<div class="home-top-container">
     <header>
         <div class="carousel-bg"></div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -95,12 +95,15 @@ require("includes/head.php")
         <!-- /.row -->
     </div>
     
-
+</div>
     
 
-<div class="paralex-container">
+<div class="home-page-content-1">
     <div class="container-divider">
             
+    </div>
+    <div class="col-lg-6 ver-spacer">
+
     </div>
     <div class="container">
 
@@ -119,18 +122,19 @@ require("includes/head.php")
                 </ul>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
             </div>
-            <div class="col-lg-6">
-                
-            </div>
         </div>
         <!-- /.row -->
+    <div class="ver-spacer">
 
+    </div>
     </div>
 
 </div>
 
     <div class="container">
+    <div class="ver-spacer">
 
+    </div>
         <!-- Portfolio Section -->
         <h2>Portfolio Heading</h2>
 
@@ -165,7 +169,63 @@ require("includes/head.php")
         </div>
         <!-- /.row -->
         
-        <!-- Call to Action Section -->
+        
+
+    </div>
+    <!-- /.container -->
+
+
+<div class="home-page-content-2">
+    <!-- Page Content Part 2-->
+    <div class="col-lg-6 ver-spacer">
+
+    </div>
+    <div class="container">
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Modern Business Features</h2>
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v4</strong>
+                    </li>
+                    <li>jQuery</li>
+                    <li>Font Awesome</li>
+                    <li>Working contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h2>Modern Business Features</h2>
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v4</strong>
+                    </li>
+                    <li>jQuery</li>
+                    <li>Font Awesome</li>
+                    <li>Working contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    <div class="ver-spacer">
+
+    </div>
+        <!-- /.row -->
+    </div>
+</div>    
+
+<div>
+    <div class="ver-spacer">
+
+    </div>
+    <div class="container">
+    <!-- Call to Action Section -->
         <div class="row mb-4">
             <div class="col-md-8">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
@@ -174,9 +234,8 @@ require("includes/head.php")
                 <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
             </div>
         </div>
-
     </div>
-    <!-- /.container -->
+</div>
     
     <!-- Footer -->
     <?php
