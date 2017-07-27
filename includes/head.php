@@ -11,7 +11,7 @@
     <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Font family -->
-    <link href="https://fonts.googleapis.com/css?family=Amiri|Amita|Redressed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Amita|Redressed" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
