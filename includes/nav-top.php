@@ -8,34 +8,25 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">Read</a>
+                        <a class="nav-link" href="chaitanya-guruji.php">Guruji</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.php">Watch</a>
+                        <a class="nav-link" href="read.php">Read</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Meet</a>
+                        <a class="nav-link" href="watch.php">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meet.php">Meet</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Kriya
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                            <a class="dropdown-item" href="portfolio-1-col.php">1 Column Portfolio</a>
-                            <a class="dropdown-item" href="portfolio-2-col.php">2 Column Portfolio</a>
-                            <a class="dropdown-item" href="portfolio-3-col.php">3 Column Portfolio</a>
-                            <a class="dropdown-item" href="portfolio-4-col.php">4 Column Portfolio</a>
-                            <a class="dropdown-item" href="portfolio-item.php">Single Portfolio Item</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Outreach
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                            <a class="dropdown-item" href="blog-home-1.php">Blog Home 1</a>
-                            <a class="dropdown-item" href="blog-home-2.php">Blog Home 2</a>
-                            <a class="dropdown-item" href="blog-post.php">Blog Post</a>
+                            <a class="dropdown-item" href="omkar-sadhana.php">Omkar Sadhana</a>
+                            <a class="dropdown-item" href="yoga-nindra.php">Yoga Nidra</a>
+                            <a class="dropdown-item" href="samadhi.php">Samadhi</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown nav-item-last">
@@ -43,11 +34,21 @@
                             Center
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                            <a class="dropdown-item" href="full-width.php">Full Width Page</a>
-                            <a class="dropdown-item" href="sidebar.php">Sidebar Page</a>
+                            <a class="dropdown-item" href="about-center.php">About</a>
+                            <a class="dropdown-item" href="contact.php">Contact</a>
+                            <a class="dropdown-item" href="services.php">Services</a>
+                            <a class="dropdown-item" href="testimonials.php">Testimonials</a>
                             <a class="dropdown-item" href="faq.php">FAQ</a>
-                            <a class="dropdown-item" href="404.php">404</a>
-                            <a class="dropdown-item" href="pricing.php">Pricing Table</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Outreach
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                            <a class="dropdown-item" href="environment.php">Environment</a>
+                            <a class="dropdown-item" href="education.php">Education</a>
+                            <a class="dropdown-item" href="health.php">Health</a>
                         </div>
                     </li>
                 </ul>

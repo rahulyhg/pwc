@@ -5,28 +5,31 @@
         <div class="footer-widgets">
             <div class="container">
                 <div class="column dt-sc-one-fourth alignright first"> 
-                <aside class="padding20 border-bottom-brown">
+                <aside class="padding20 ">
                   <h4>Center Address</h4>
-                  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
-                </aside>
-                <aside class="padding20">
-                  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+                  <p>
+                  Pragya Chaitanya Foundation Trust,
+                  65, Padmavati Colony (B), Kings Road,
+                  Nirman Nagar, Near Mansarovar Metro Station,</br>
+                  Jaipur - 19, Rajasthan, India
+                  </p>
                 </aside>
                 </div>
 
-                <div class="column dt-sc-one-half aligncenter"> 
+                <div class="column dt-sc-one-half aligncenter" style="min-width: 10px"> 
                 <p class="padding20">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <b>Pragya Wellness Center</b> is a unit of <b>Pragya Chaitanya Foundation Trust, Jaipur</b>, which is a non – profit organization. The founder of centre is <b>Tapasavi Chaitanya Guruji</b> who has helped thousands of sadhak in regaining complete health and thereby transforming their lives. </br>
+                    The aim of the center is the manifestation of energy hidden within the people and to introduce the habits within the people for living a healthy, happy and peaceful life.
                 </p>
                 </div>
 
                 <div class="column dt-sc-one-fourth "> 
-                <aside class="padding20 border-bottom-brown">
-                  <h4>Contact us</h4>
-                  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
-                </aside>
                 <aside class="padding20">
-                  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+                  <h4>Contact us</h4>
+                  <p>
+                  <b>Email:</b> info@pragyawellness.com </br>
+                  <b>Phone:</b> +91-9414072157
+                  </p>
                 </aside>
                 </div>
             </div>
@@ -36,7 +39,7 @@
         <div class="container">
             <p class="m-0 text-center">
                 &nbsp; <br>
-                Copyright &copy; Your Website 2017
+                Copyright &copy; Pragya Chaitanya Foundation Trust
                 <br> &nbsp;
             </p>
         </div>   

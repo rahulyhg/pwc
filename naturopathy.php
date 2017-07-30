@@ -14,13 +14,13 @@ require("includes/head.php")
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Sidebar Page <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Naturopathy <small>treatments with the use of "Panchbhut"</small></h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.php">Home</a>
             </li>
-            <li class="breadcrumb-item active">About</li>
+            <li class="breadcrumb-item active">Naturopathy</li>
         </ol>
 
         <!-- Content Row -->

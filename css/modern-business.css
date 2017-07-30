@@ -11,13 +11,14 @@
  *  Brown2: #D3AC7A;
  *  Brown3: #C9A474;
  *  Brown4: #544531;
- *  Yellow: #FED973;
+ *  Yellow: #FDD87A;
  *  Orange: #f7bc2e;
  */
 
 body {
+    color: #484338;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 22px;
     background-color: #F5F0E4;
     font-family: 'Roboto', serif;
@@ -28,11 +29,17 @@ body, html {
     width: 100%; 
 }
 
-h1, h2 {
-    font-family: 'Amita', cursive;
+
+b,
+strong {
+  font-weight: 500;
 }
 
-h3, h4, h5 {
+h1 {
+    line-height: 50px
+}
+
+h1, h2, h3, h4, h5 {
     font-family: 'Redressed', cursive;
 }
 
@@ -40,6 +47,33 @@ h3, h4, h5 {
     body {
         padding-top: 116px;
     }
+}
+
+.font-serif {
+    font-family: 'Roboto', serif !important;
+}
+
+.carousel-caption-bottom {
+    top: auto;
+    bottom: 10px;
+    color: #fff
+}
+
+.carousel-caption p {
+    font-family: 'Roboto', serif;
+    font-weight: lighter;
+}
+
+.carousel-caption h1{
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .nav-link {
@@ -62,6 +96,19 @@ h3, h4, h5 {
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
   color: #f7bc2e;
+}
+
+.tags-list {
+    margin: 0;
+    padding-top:0;
+}
+.tags-list li {
+    float: left;
+    width: 50%;
+}
+
+.yog-nidra-list li{
+    padding-bottom: 20px;
 }
 
 .carousel-item {
@@ -111,7 +158,6 @@ h3, h4, h5 {
 
 .home-page-content-1 {
     width: 100%;
-    color: #484338;
     background-size: cover;
     background-color: #F2E9D3;
     background-repeat: no-repeat;
@@ -145,7 +191,6 @@ h3, h4, h5 {
     color: #484338;
     background-color: #d4ad76;
     background-image: url("../images/concrete-wall.png");
-    background-attachment: fixed;
 }
 
 .footer-copyright {

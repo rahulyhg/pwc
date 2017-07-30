@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Pragya Wellness Center - Holistic approach for Physical, Mental wellness and Spritual enlightenment</title>
 
     <!-- Font family -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Amita|Redressed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:Roboto:300,400,500|Redressed|La+Belle+Aurore" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
