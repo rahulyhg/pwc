@@ -11,10 +11,11 @@
     <title>Pragya Wellness Center - Holistic approach for Physical, Mental wellness and Spritual enlightenment</title>
 
     <!-- Font family -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:Roboto:300,400,500|Redressed|La+Belle+Aurore" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500|Redressed|La+Belle+Aurore" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">

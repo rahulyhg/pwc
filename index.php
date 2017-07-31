@@ -59,7 +59,7 @@ require("includes/head.php")
     <div class="container">
         <div class="ver-spacer"></div>
         <div class="text-align-center"><img src="images/logo.png" height="100"></div>
-        <h1 class="font-serif text-align-center">Welcome to Pragya Wellness Center</h1>
+        <h1 class="font-serif text-align-center welcome-message">Welcome to Pragya Wellness Center</h1>
         <div class="row">
             <div class="col-lg-6">
                 <p>
