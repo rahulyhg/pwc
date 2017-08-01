@@ -40,9 +40,9 @@ require("includes/head.php")
                 <p>
                     The most appropriate time for this process, is morning around 4 O'clock, before sun rise, in what we call <b>Brahmh Muhoort</b>. After getting fresh, the learner should sit on sitting mat <i>(or on any chair, if feeling inconvenient)</i> for Sadhana. The process of <b>Sadhana</b> includes three stages, which are to be, performed one after another: 
                     <ol>
-                        <li><h5>Pranav Sadhana</h5></li>
-                        <li><h5>Yog Nidra Part - I with Thought <i>(determination)</i></h5></li>
-                        <li><h5>Yog Nidra Part - II without Thought <i>(determination)</i></h5></li>
+                        <li><b>Pranav Sadhana</b></li>
+                        <li><b>Yog Nidra Part - I with Thought</b> <i>(determination)</i></li>
+                        <li><b>Yog Nidra Part - II without Thought</b> <i>(determination)</i></li>
                     </ol>
                 </p>
                 <p>

@@ -3175,7 +3175,7 @@ tbody.collapse.show {
   width: 100%;
   padding: 3px 1.5rem;
   clear: both;
-  font-weight: normal;
+  font-weight: 300;
   color: #292b2c;
   text-align: inherit;
   white-space: nowrap;
@@ -4366,7 +4366,7 @@ tbody.collapse.show {
 .navbar-inverse .navbar-nav .active > .nav-link,
 .navbar-inverse .navbar-nav .nav-link.open,
 .navbar-inverse .navbar-nav .nav-link.active {
-  color: white;
+  color: #FED973
 }
 
 .navbar-inverse .navbar-toggler {

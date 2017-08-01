@@ -72,18 +72,6 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
-@media (max-width: 992px) {
-    .navbar-brand{
-        padding: 0.5rem;
-        width: 100%;
-        text-align:center;
-    }
-
-    .navbar {
-        height: auto;
-    }
-}
-
 .welcome-message {
     font-weight: 100
 }
@@ -224,27 +212,20 @@ h1, h2, h3, h4, h5 {
     padding: 20px
 }
 
-/*----*****---- << Columns >> ----*****----*/
 
-.column { 
-    margin: 0 0 0 2%; 
-    float: left; 
-    min-height: 1px; 
-    position: relative; 
+
+
+@media (max-width: 992px) {
+    .navbar-brand{
+        padding: 0.5rem;
+        width: 100%;
+        text-align:center;
+    }
+    .welcome-message {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .navbar {
+        height: auto;
+    }
 }
-
-.column.first { 
-    margin-left: 0; 
-    clear: both; 
-}  
-
-.dt-sc-one-half { 
-    width: 49%; 
-}
-
-.dt-sc-one-fourth { 
-    width: 23.5%; 
-}
-
-
-

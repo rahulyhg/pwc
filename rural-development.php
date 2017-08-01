@@ -14,13 +14,13 @@ require("includes/head.php")
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Education <small>a not-for-profit education initiative</small></h1>
+        <h1 class="mt-4 mb-3">Rural Development <small>transforming the lives of rural India</small></h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.php">Home</a>
             </li>
-            <li class="breadcrumb-item active">Education</li>
+            <li class="breadcrumb-item active">Rural Development</li>
         </ol>
 
         <!-- Portfolio Item Row -->

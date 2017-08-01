@@ -20,7 +20,7 @@ require("includes/head.php")
             <li class="breadcrumb-item">
                 <a href="index.php">Home</a>
             </li>
-            <li class="breadcrumb-item active">Portfolio Item</li>
+            <li class="breadcrumb-item active">Environment</li>
         </ol>
 
         <!-- Portfolio Item Row -->
