@@ -3955,8 +3955,7 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: 1;
   background: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border: none;
 }
 
 .navbar-toggler:focus, .navbar-toggler:hover {
@@ -5818,7 +5817,7 @@ button.close {
 
 .carousel-inner {
   position: relative;
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -5925,7 +5924,7 @@ button.close {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 15%;
+  width: 5%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -6033,7 +6032,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #000;
+  color: #fff;
   text-align: center;
   font-family: 'Homemade Apple', cursive;
 }
