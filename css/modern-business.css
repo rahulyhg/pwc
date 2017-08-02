@@ -16,7 +16,7 @@
  */
 
 body {
-    color: #484338;
+    color: #555555;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -30,10 +30,19 @@ body, html {
     width: 100%; 
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
 
 b,
 strong {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 h1 {
@@ -41,6 +50,7 @@ h1 {
 }
 
 h1, h2, h3, h4, h5 {
+    color: #333333;
     font-family: 'Redressed', cursive;
 }
 
@@ -112,6 +122,9 @@ h1, h2, h3, h4, h5 {
     -o-background-size: cover;
     background-size: cover;
 }
+.carousel-item h1 {
+    color: #fff
+}
 
 .portfolio-item {
     margin-bottom: 30px;
@@ -139,9 +152,8 @@ h1, h2, h3, h4, h5 {
     background-attachment: fixed;
 }
 
-.welcome-message
-{
-    color: #7E834A;
+.welcome-message {
+    color: #7E834A !important;
 }
 
 .container-divider {
@@ -170,9 +182,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .home-page-content-4  {
-
-    /* to do*/
-
+    /*background-color: #F2E9D3;
+     to do*/
 }
 
 .aligncenter {

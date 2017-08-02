@@ -27,13 +27,12 @@ require("includes/head.php")
                     <div class="carousel-item" style="background-image: url('images/pwc-wallpaper-5.png')">
                         <div class="carousel-caption d-none d-md-block carousel-caption-bottom">
                         <h1>
-                        Holistic approach for Physical, Mental wellness and Spritual enlightenment <br> 
-                        <small>-Tapasvi Shri Chaitanya Guruji</small> </h1>
+                        Holistic approach for Physical, Mental wellness and Spritual enlightenment</h1>
                     </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('images/pwc-wallpaper-7.png')">
-                        <div class="carousel-caption d-none d-md-block carousel-caption-bottom">
+                    <div class="carousel-item" style="background-image: url('images/pwc-wallpaper-8.png')">
+                        <div class="carousel-caption d-none d-md-block">
                             <h1>Everything in the universe is yours, stretch out your arms and embrace it with love.</h1>
                             <p> </p>
                         </div>
