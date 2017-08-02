@@ -27,7 +27,7 @@ require("includes/head.php")
         <!-- Intro Content -->
         <div class="row">
             <div class="col-lg-6">
-                <img class="img-fluid rounded mb-4" src="images/guruji-1.jpg" alt="">
+                <img class="img-fluid rounded mb-4" src="assets/images/guruji-1.jpg" alt="">
             </div>
             <div class="col-lg-6">
                 <h2>About Guruji</h2>

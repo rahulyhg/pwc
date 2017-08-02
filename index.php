@@ -18,20 +18,20 @@ require("includes/head.php")
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active" style="background-image: url('images/pwc-wallpaper-0.png')">
+                    <div class="carousel-item active" style="background-image: url('assets/images/pwc-wallpaper-0.png')">
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="welcome-message">Welcome to Pragya Wellness Center</h1>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('images/pwc-wallpaper-5.png')">
+                    <div class="carousel-item" style="background-image: url('assets/images/pwc-wallpaper-5.png')">
                         <div class="carousel-caption d-none d-md-block carousel-caption-bottom">
                         <h1>
                         Holistic approach for Physical, Mental wellness and Spritual enlightenment</h1>
                     </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item" style="background-image: url('images/pwc-wallpaper-8.png')">
+                    <div class="carousel-item" style="background-image: url('assets/images/pwc-wallpaper-8.png')">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Everything in the universe is yours, stretch out your arms and embrace it with love.</h1>
                             <p> </p>

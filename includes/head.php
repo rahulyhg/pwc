@@ -18,7 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="assets/css/modern-business.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
