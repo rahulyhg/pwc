@@ -4392,7 +4392,7 @@ tbody.collapse.show {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #F2E9D3;
   border-radius: 0.25rem;
 }
 
@@ -4417,7 +4417,12 @@ tbody.collapse.show {
   margin-bottom: 0;
 }
 
+.card-link {
+  color: #FDD87A;
+}
+
 .card-link:hover {
+  color: #f7bc2e;
   text-decoration: none;
 }
 
@@ -4438,8 +4443,8 @@ tbody.collapse.show {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #f7f7f9;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-bottom: 1px dashed #F2E9D3;
 }
 
 .card-header:first-child {
@@ -4448,8 +4453,8 @@ tbody.collapse.show {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #f7f7f9;
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-top: 1px dashed #F2E9D3;
 }
 
 .card-footer:last-child {
@@ -5138,7 +5143,7 @@ a.badge:focus, a.badge:hover {
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #F2E9D3;
 }
 
 .list-group-item:first-child {
@@ -5172,9 +5177,9 @@ a.badge:focus, a.badge:hover {
 
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #C9A474;
-  border-color: #C9A474;
+  color: #000;
+  border-color: #F2E9D3;
+  background-color: #F2E9D3;
 }
 
 .list-group-item.active .list-group-item-heading,

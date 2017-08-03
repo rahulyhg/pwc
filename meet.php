@@ -24,6 +24,10 @@ require("includes/head.php")
         </ol>
 
         <div class="row">
+
+<?
+    for ($i=0; $i<3; $i++) { 
+?>
             <div class="col-lg-6 portfolio-item">
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
@@ -33,51 +37,11 @@ require("includes/head.php")
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-block">
-                        <h4 class="card-title"><a href="#">City name - Shivir Two</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-block">
-                        <h4 class="card-title"><a href="#">City name - Shivir Three</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-block">
-                        <h4 class="card-title"><a href="#">City name - Shivir Four</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-block">
-                        <h4 class="card-title"><a href="#">City name - Shivir Five</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-block">
-                        <h4 class="card-title"><a href="#">City name - Shivir Six</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                    </div>
-                </div>
-            </div>
+            
+<?
+    }
+?>            
+
         </div>
         <!-- /.row -->
 

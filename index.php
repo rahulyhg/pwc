@@ -109,23 +109,24 @@ require("includes/head.php")
                 <p><i>7 days intigrated residential program</i></p>
                 <ul>
                     <li>Aura test</li>
-                    <li>Bio-Well test</li>
                     <li>Naturopathy</li>
                     <li>Alkaline food</li>
+                    <li>Bio-Well test</li>
+                    <li>Detoxification</li>
                     <li>Manoyog Sadhana</li>
                     <li>Positive mental attitude</li>
                 </ul>
                 <p>At Pragya Wellness Center we work on <b>energy field</b>, <b>diet</b> and <b>mental attitude</b> of the person. Working on the root of the problem is the basis of the healthy being. It is a holistic approach for Physical, Mental wellness and Spritual enlightenment</p>
                 <p class="text-align-right">
+                    <a href="#" class="btn btn-primary fa fa-info-circle"></a>
                     <a href="#" class="btn btn-primary">Join now</a>
-                    <a href="#" class="btn btn-primary">Learn more</a>
                 </p>
             </div>
         </div>
         <!-- /.row -->
+    </div>
     <div class="ver-spacer">
 
-    </div>
     </div>
 </div>
 
@@ -136,42 +137,61 @@ require("includes/head.php")
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2>Through <b>'Manoyog Sadhana'</b>, a person can get rid of all vices</h2>
-                <div class="ver-spacer"></div>
+                <h2>Through 'Manoyog Sadhana', a person can get rid of all vices</h2>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">4-Day Basic Course</h4>
+                    <div class="card-header"><b>4-Day Basic Course</b></div>
                     <div class="card-block">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                        </p>
                     </div>
                     <div class="card-footer text-align-right">
+                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
                         <a href="#" class="btn btn-primary">Join now</a>
-                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">10-Day Advance Course</h4>
+                    <div class="card-header"><b>4-Day Advance Course</b></div>
                     <div class="card-block">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                        </p>
                     </div>
                     <div class="card-footer text-align-right">
+                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
                         <a href="#" class="btn btn-primary">Join now</a>
-                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">4-Day Living Together Program</h4>
+                    <div class="card-header"><b>10-Day Advance Course</b></div>
                     <div class="card-block">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                        </p>
                     </div>
                     <div class="card-footer text-align-right">
+                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
                         <a href="#" class="btn btn-primary">Join now</a>
-                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-header"><b>4-Day Living Together Program</b></div>
+                    <div class="card-block">
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                        </p>
+                    </div>
+                    <div class="card-footer text-align-right">
+                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
+                        <a href="#" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +256,7 @@ require("includes/head.php")
                     <div class="card-block">
                         <h4 class="card-title"><a href="omkar-sadhana.php">Omkar Sadhana</a></h4>
                         <p class="card-text">It is an anti ageing technique of chanting “Omkar” in a specialized manner.This technique provides full oxygen to all cells of the body.</p>
-                        <p class="text-align-right"><a href="omkar-sadhana.php">Learn more</a></p>
+                        <div class="text-align-right"><a href="omkar-sadhana.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -246,7 +266,7 @@ require("includes/head.php")
                     <div class="card-block">
                         <h4 class="card-title"><a href="yoga-nindra.php">Yoga Nidra</a></h4>
                         <p class="card-text">This is a brain longevity technique.With the help of this technique, a balance can be created between body and soul.</p>
-                        <p class="text-align-right"><a href="yoga-nindra.php">Learn more</a></p>
+                        <div class="text-align-right"><a href="yoga-nindra.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -256,7 +276,7 @@ require("includes/head.php")
                     <div class="card-block">
                         <h4 class="card-title"><a href="naturopathy.php">Naturopathy</a></h4>
                         <p class="card-text">Naturopathy treatments with the use of "Panchbhut"(five elements) is being performed at the pragya wellness center</p>
-                        <p class="text-align-right"><a href="naturopathy.php">Learn more</a></p>
+                        <div class="text-align-right"><a href="naturopathy.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>

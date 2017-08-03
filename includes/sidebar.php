@@ -6,6 +6,5 @@
         <a href="yog-nindra.php" class="list-group-item <? if ($filename == "yog-nindra.php") { echo "active"; } ?>">Yog Nindra</a>
         <a href="samadhi.php" class="list-group-item <? if ($filename == "samadhi.php") { echo "active"; } ?>">Samadhi</a>
         <a href="naturopathy.php" class="list-group-item <? if ($filename == "naturopathy.php") { echo "active"; } ?>">Naturopathy</a>
-
     </div>
 </div>
