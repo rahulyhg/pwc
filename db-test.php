@@ -1,5 +1,37 @@
 
 <?php
+
+    //aws
+   $dbhost = 'gst.cnfsfalsf8z0.ap-south-1.rds.amazonaws.com:3306';
+   $dbuser = 'gst';
+   $dbpass = 'gstpwc123';
+   
+   // //localhost
+   // $dbhost = 'localhost';
+   // $dbuser = 'root';
+   // $dbpass = '';
+   
+   $conn = mysql_connect($dbhost, $dbuser, $dbpass);
+   
+   if(! $conn ) {
+      die('Could not connect: ' . mysql_error());
+   }
+   
+   mysql_select_db('gst');
+
+
+   $sql = 'SELECT * FROM gst_blog_post';
+   $retval = mysql_query( $sql, $conn);
+   
+   if(! $retval ) {
+      die('Could not get data: ' . mysql_error());
+   }
+
+   mysql_close($conn);
+
+?>
+
+<?php
 require("includes/head.php")
 ?>
 
@@ -28,19 +60,27 @@ require("includes/head.php")
             <!-- Blog Entries Column -->
             <div class="col-md-8">
 
-<?
-    for ($i=0; $i<6; $i++) { 
-?>
+<?php
 
+   while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
+
+?>
                 <!-- Blog Post -->
                 <div class="card mb-4">
-                    <!--<img class="card-img-top img-fluid" src="http://placehold.it/750x300" alt="<?=$row['post_title']?>">-->
+                    <img class="card-img-top img-fluid" src="http://placehold.it/750x300" alt="<?=$row['post_title']?>">
                     <div class="card-block">
-                        <h2 class="card-title">Sample articles title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. </p>
+                        <h2 class="card-title"><?=$row['post_title']?></h2>
+                        <p class="card-text"><?=$row['post_desc']?></p>
                         <a href="#" class="btn btn-primary">Read More &rarr;</a>
                     </div>
-                    <div class="card-footer text-muted">Posted on January 1, 2017</div>
+                    <div class="card-footer text-muted">
+                        Posted on <? 
+                        
+                        $timestamp = strtotime($row['post_create_date']);
+                        print date("m-d-Y", $timestamp);
+
+                        ?>
+                    </div>
                 </div>
 
 <?php

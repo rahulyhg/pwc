@@ -28,7 +28,7 @@ require("includes/head.php")
             <div class="col-md-8">
                     <div class="row">
 <?
-    for ($i=0; $i<3; $i++) { 
+    for ($i=0; $i<6; $i++) { 
 ?>
             <div class="col-lg-6 portfolio-item">
                 <div class="card h-100">
