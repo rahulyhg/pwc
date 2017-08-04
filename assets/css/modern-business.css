@@ -231,6 +231,10 @@ h1, h2, h3, h4, h5 {
   background-image: url("../images/sandpaper.png");
 }
 
+.bg-primary.card-header {
+    border-bottom-style: solid;
+}
+
 
 @media (max-width: 992px) {
     .navbar-brand{

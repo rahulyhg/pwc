@@ -38,7 +38,7 @@ require("includes/head.php")
                     <div class="card-block">
                         <h2 class="card-title">Sample articles title</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. </p>
-                        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        <a href="blog-post.php" class="btn btn-primary">Read More &rarr;</a>
                     </div>
                     <div class="card-footer text-muted">Posted on January 1, 2017</div>
                 </div>

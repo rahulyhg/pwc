@@ -13,13 +13,16 @@ require("includes/head.php")
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Post Title <small>by <a href="#">Start Bootstrap</a></small></h1>
+        <h1 class="mt-4 mb-3">Sample articles title</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.php">Home</a>
             </li>
-            <li class="breadcrumb-item active">Blog Home 2</li>
+            <li class="breadcrumb-item">
+                <a href="read.php">Read</a>
+            </li>
+            <li class="breadcrumb-item active">Article</li>
         </ol>
 
         <div class="row">

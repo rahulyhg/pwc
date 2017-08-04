@@ -15,7 +15,7 @@ require("includes/head.php")
 
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Meet <small>Upcoming Camps</small></h1>
+        <h1 class="mt-4 mb-3">Meet <small>Courses updates</small></h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -38,11 +38,12 @@ require("includes/head.php")
                     <div class="row">
                         <div class="col-lg-6">
                             <a href="#">
-                                <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
+                                <img class="img-fluid rounded" src="http://placehold.it/750x500" alt="">
                             </a>
                         </div>
                         <div class="col-lg-6">
-                            <h2 class="card-title"><a href="#">City name - Shivir One</a></h2>
+                            <h2 class="card-title"><a href="#">City name</a></h2>
+                            <p><b>Basic/Advanced Course from 10 May - 5 June, 2017</b></p>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
                         </div>
                     </div>
