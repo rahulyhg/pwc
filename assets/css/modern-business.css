@@ -59,11 +59,6 @@ h1, h2, h3, h4, h5 {
     font-family: 'Roboto', serif !important;
 }
 
-.carousel-caption-bottom {
-    top: auto;
-    bottom: 10px;
-}
-
 .text-align-right {
     text-align: right;
 }
@@ -113,6 +108,10 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 20px;
 }
 
+.carousel {
+    background-color: #7E834A !important;
+}
+
 .carousel-item {
     height: 60vh;
     min-height: 300px;
@@ -126,8 +125,9 @@ h1, h2, h3, h4, h5 {
     color: #fff
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
+.carousel-caption-bottom {
+    top: auto;
+    bottom: 10px;
 }
 
 .carousel-bg {
@@ -139,6 +139,10 @@ h1, h2, h3, h4, h5 {
     background-attachment: fixed;
     /*background-image: url("../images/xv.png");*/
     /*background-image: url("../images/bg-pattern-leaf.png");*/
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
 }
 
 .bg-inverse {

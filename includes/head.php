@@ -1,3 +1,12 @@
+<?php
+
+    $base_url = "http://" . $_SERVER['SERVER_NAME'] . "/";
+
+    if ($_SERVER['SERVER_NAME'] == "localhost") {
+        $base_url = $base_url."pwc/";
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,11 +23,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500|Redressed" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?=$base_url?>vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="<?=$base_url?>vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/modern-business.css" rel="stylesheet">
+    <link href="<?=$base_url?>assets/css/modern-business.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>

@@ -19,7 +19,7 @@ require("includes/head.php")
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.php">Home</a>
+                <a href="<?=$base_url?>index.php">Home</a>
             </li>
             <li class="breadcrumb-item active">Guruji</li>
         </ol>

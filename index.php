@@ -119,7 +119,7 @@ require("includes/head.php")
                 <p>At Pragya Wellness Center we work on <b>energy field</b>, <b>diet</b> and <b>mental attitude</b> of the person. Working on the root of the problem is the basis of the healthy being. It is a holistic approach for Physical, Mental wellness and Spritual enlightenment</p>
                 <p class="text-align-right">
                     <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                    <a href="courses.php" class="btn btn-primary">Join now</a>
+                    <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
                 </p>
             </div>
         </div>
@@ -149,7 +149,7 @@ require("includes/head.php")
                     </div>
                     <div class="card-footer text-align-right">
                         <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@ require("includes/head.php")
                     </div>
                     <div class="card-footer text-align-right">
                         <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@ require("includes/head.php")
                     </div>
                     <div class="card-footer text-align-right">
                         <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ require("includes/head.php")
                     </div>
                     <div class="card-footer text-align-right">
                         <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -254,9 +254,9 @@ require("includes/head.php")
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top img-fluid" src="assets/images/omkar-sadhana.png" alt=""></a>
                     <div class="card-block">
-                        <h4 class="card-title"><a href="omkar-sadhana.php">Omkar Sadhana</a></h4>
+                        <h4 class="card-title"><a href="<?=$base_url?>omkar-sadhana.php">Omkar Sadhana</a></h4>
                         <p class="card-text">It is an anti ageing technique of chanting “Omkar” in a specialized manner.This technique provides full oxygen to all cells of the body.</p>
-                        <div class="text-align-right"><a href="omkar-sadhana.php" class="card-link">Learn more</a></div>
+                        <div class="text-align-right"><a href="<?=$base_url?>omkar-sadhana.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -264,9 +264,9 @@ require("includes/head.php")
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top img-fluid" src="assets/images/yog-nidra.png" alt=""></a>
                     <div class="card-block">
-                        <h4 class="card-title"><a href="yog-nindra.php">Yoga Nidra</a></h4>
+                        <h4 class="card-title"><a href="<?=$base_url?>yog-nindra.php">Yoga Nidra</a></h4>
                         <p class="card-text">This is a brain longevity technique.With the help of this technique, a balance can be created between body and soul.</p>
-                        <div class="text-align-right"><a href="yog-nindra.php" class="card-link">Learn more</a></div>
+                        <div class="text-align-right"><a href="<?=$base_url?>yog-nindra.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -274,9 +274,9 @@ require("includes/head.php")
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top img-fluid" src="assets/images/naturopathy.jpg" alt=""></a>
                     <div class="card-block">
-                        <h4 class="card-title"><a href="naturopathy.php">Naturopathy</a></h4>
+                        <h4 class="card-title"><a href="<?=$base_url?>naturopathy.php">Naturopathy</a></h4>
                         <p class="card-text">Naturopathy treatments with the use of "Panchbhut"(five elements) is being performed at the pragya wellness center</p>
-                        <div class="text-align-right"><a href="naturopathy.php" class="card-link">Learn more</a></div>
+                        <div class="text-align-right"><a href="<?=$base_url?>naturopathy.php" class="card-link">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -292,7 +292,7 @@ require("includes/head.php")
     <!-- Call to Action Section -->
         <div class="row mb-4">
             <div class="col-md-8">
-                <p>We at <b>Pragya Wellness Center</b> offer <a href="">various courses</a> to the nature of the individual. Wish how you would like to spend the time here we can talk and come to a conclusion.</p>
+                <p>We at <b>Pragya Wellness Center</b> offer <a href="<?=$base_url?>">various courses</a> to the nature of the individual. Wish how you would like to spend the time here we can talk and come to a conclusion.</p>
             </div>
             <div class="col-md-4">
                 <a class="btn btn-lg btn-secondary btn-block" href="#"></i> <b>+91-9414072157</b></a>
