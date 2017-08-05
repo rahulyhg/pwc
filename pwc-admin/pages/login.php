@@ -1,7 +1,7 @@
 
                     <!-- login -->
                     <div class="col-lg-12" style="padding-right: 250px">
-                        <form method="post">
+                        <form method="post" action="<?=$base_url?>action/login.php">
                             <h1>Login</h1>
                             <p>
                                 <input type="password" name="password" placeholder="Password">
@@ -15,8 +15,8 @@
                             ?>
                             <p><i>
                               <?
-                              print($_SESSION["message"]);
-                              unset($_SESSION["message"]);
+                                print($_SESSION["message"]);
+                                unset($_SESSION["message"]);
                               ?>  
                             </i></p>
                             <?

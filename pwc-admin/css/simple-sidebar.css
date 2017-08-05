@@ -4,11 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- body {
+body {
     overflow-x: hidden;
     font-size: 20px;
- }
+}
 
+a, a:hover {
+    text-decoration: none;
+}
 
 input, textarea {
     width: 100%;
@@ -20,6 +23,14 @@ textarea {
     height: 50vh;
 }
 
+.text-align-right {
+    text-align: right;
+}
+
+.div-row {
+    border-bottom: 2px solid #666;
+    margin-bottom: 20px;
+}
 
 /* Toggle Styles */
 

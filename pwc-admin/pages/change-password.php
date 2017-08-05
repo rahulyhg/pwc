@@ -1,12 +1,24 @@
         <h1>Change password</h1>
-        <form method="post">
+        <form method="post" action="<?=$base_url?>action/change-password.php">
 	        <p>
-	        	<input type="text" name="oldPassword" placeholder="Old password">
+	        	<input type="password" name="oldPassword" placeholder="Current password">
 	        </p>
 	        <p>
-	        	<input type="text" name="newPassword" placeholder="New password">
+	        	<input type="password" name="newPassword" placeholder="New password">
 	        </p>
 	        <p>
 	        	<input type="submit" name="submit">
 	        </p>
+            <?
+                if (isset($_SESSION["message"])) {
+            ?>
+            <p><i>
+              <?
+              print($_SESSION["message"]);
+              unset($_SESSION["message"]);
+              ?>  
+            </i></p>
+            <?
+                }
+            ?>
         </form>

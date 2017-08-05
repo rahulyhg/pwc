@@ -27,7 +27,7 @@
             <a href="<?=$base_url?>?view=change-password">Change Password</a>
         </li>
         <li>
-            <a href="<?=$base_url?>?action=logout">Logout</a>
+            <a href="<?=$base_url?>action/logout.php">Logout</a>
         </li>
     </ul>
 </div>
