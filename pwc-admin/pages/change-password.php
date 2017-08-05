@@ -9,16 +9,4 @@
 	        <p>
 	        	<input type="submit" name="submit">
 	        </p>
-            <?
-                if (isset($_SESSION["message"])) {
-            ?>
-            <p><i>
-              <?
-              print($_SESSION["message"]);
-              unset($_SESSION["message"]);
-              ?>  
-            </i></p>
-            <?
-                }
-            ?>
         </form>

@@ -23,6 +23,21 @@ textarea {
     height: 50vh;
 }
 
+.alert-message {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.alert-message p {
+    margin: 25%;
+    color: #fff;
+    text-align:center;
+}
+
 .text-align-right {
     text-align: right;
 }

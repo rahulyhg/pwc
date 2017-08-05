@@ -2,25 +2,17 @@
 
     include("../includes/init.php");
 
-    if (isset($_POST["oldPassword"]) && isset($_POST["newPassword"])) {
-        
-        if ($_POST["oldPassword"] == $data["password"]) {
 
-        	mysqli_query($conn, "INSERT admin_user SET password = '". $_POST["newPassword"] ."' ");
+	if (mysqli_query($conn, "INSERT INTO blog_post (blog_details, blog_title) VALUES ('". mysql_real_escape_string($_POST["blog_details"]) ."', '". mysql_real_escape_string($_POST["blog_title"]) ."')")) {
 
-        	if (mysqli_affected_rows($conn) > 0) {
-        		$_SESSION["message"] = "Password changed, login again";
-        	} else {
-        		$_SESSION["message"] = "Password not changed";
-        	}
+		$_SESSION["message"] = "New article created";
 
-        } else {
+	} else {
 
-        	$_SESSION["message"] = "Invalid old password";
+		$_SESSION["message"] = "Unable to create article";
 
-        }
+	}
 
-    }
 
     header('Location: ' . $base_url . '?view=articles-list');
     die;    
