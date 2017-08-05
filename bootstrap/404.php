@@ -23,35 +23,25 @@ require("../includes/head.php")
         </ol>
 
         <div class="jumbotron">
-            <h1 class="display-1">404</h1>
             <p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>
             <ul>
                 <li>
-                    <a href="<?=$base_url?>index.php">Home</a>
-                </li>
-                <li>
-                    <a href="<?=$base_url?>about.php">About</a>
-                </li>
-                <li>
-                    <a href="<?=$base_url?>services.php">Services</a>
-                </li>
-                <li>
-                    <a href="<?=$base_url?>contact.php">Contact</a>
+                    <a href="<?=$base_url?>bootstrap/about.php">About</a>
                 </li>
                 <li>
                     Portfolio
                     <ul>
                         <li>
-                            <a href="<?=$base_url?>portfolio-1-col.php">1 Column Portfolio</a>
+                            <a href="<?=$base_url?>bootstrap/portfolio-1-col.php">1 Column Portfolio</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>portfolio-2-col.php">2 Column Portfolio</a>
+                            <a href="<?=$base_url?>bootstrap/portfolio-2-col.php">2 Column Portfolio</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>portfolio-3-col.php">3 Column Portfolio</a>
+                            <a href="<?=$base_url?>bootstrap/portfolio-3-col.php">3 Column Portfolio</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>portfolio-4-col.php">4 Column Portfolio</a>
+                            <a href="<?=$base_url?>bootstrap/portfolio-4-col.php">4 Column Portfolio</a>
                         </li>
                     </ul>
                 </li>
@@ -59,13 +49,13 @@ require("../includes/head.php")
                     Blog
                     <ul>
                         <li>
-                            <a href="<?=$base_url?>blog-home-1.php">Blog Home 1</a>
+                            <a href="<?=$base_url?>bootstrap/blog-home-1.php">Blog Home 1</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>blog-home-2.php">Blog Home 2</a>
+                            <a href="<?=$base_url?>bootstrap/blog-home-2.php">Blog Home 2</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>blog-post.php">Blog Post</a>
+                            <a href="<?=$base_url?>bootstrap/blog-post.php">Blog Post</a>
                         </li>
                     </ul>
                 </li>
@@ -73,19 +63,13 @@ require("../includes/head.php")
                     Other Pages
                     <ul>
                         <li>
-                            <a href="<?=$base_url?>full-width-page.php">Full Width Page</a>
+                            <a href="<?=$base_url?>bootstrap/full-width.php">Full Width Page</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>sidebar.php">Sidebar Page</a>
+                            <a href="<?=$base_url?>bootstrap/sidebar.php">Sidebar Page</a>
                         </li>
                         <li>
-                            <a href="<?=$base_url?>faq.php">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="<?=$base_url?>404.php">404 Page</a>
-                        </li>
-                        <li>
-                            <a href="<?=$base_url?>pricing-table.php">Pricing Table</a>
+                            <a href="<?=$base_url?>bootstrap/pricing.php">Pricing Table</a>
                         </li>
                     </ul>
                 </li>

@@ -2,10 +2,10 @@
     include("includes/head.php");
 ?>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" class="toggled">
         <!-- Sidebar -->
         <?php
-            require("includes/sidebar.php");
+            if (isset($_SESSION["password"])) require("includes/sidebar.php");
         ?>        
         <!-- Page Content -->
         <div id="page-content-wrapper">
@@ -16,13 +16,13 @@
                 ?>
                     <!-- Topbar -->
                     <div class="col-lg-12">
-                    <?php
-                        require("includes/topbar.php");
-                    ?>  
+                <?php
+                    require("includes/topbar.php");
+                ?>  
                     </div>
                     <!-- Content -->
                     <div class="col-lg-12">
-                    <?php
+                <?php
 
                     if (isset($_GET["view"])) {
 
@@ -56,13 +56,13 @@
                                 break;
                             
                             default:
-                                require("pages/sample.php");
+                                require("pages/welcome.php");
                                 break;
                         }
     
                     } else {
 
-                        require("pages/sample.php");
+                        require("pages/welcome.php");
 
                     }
 
@@ -72,36 +72,7 @@
             
             <?php
                 } else {
-            ?>
-
-                    <!-- login -->
-                    <div class="col-lg-12">
-                        <form method="post">
-                            <h1>Login</h1>
-                            <p>
-                                <input type="password" name="password" placeholder="Password">
-                            </p>
-                            <p>
-                                <input type="submit" name="submit" value="Submit">
-                            </p>
-                            
-                            <?
-                                if (isset($_SESSION["message"])) {
-                            ?>
-                            <p><i>
-                              <?
-                              print($_SESSION["message"]);
-                              unset($_SESSION["message"]);
-                              ?>  
-                            </i></p>
-                            <?
-                                }
-                            ?>
-
-                        </form>
-                    </div>
-
-            <?
+                    require("pages/login.php");
                 }
             ?>
             </div>

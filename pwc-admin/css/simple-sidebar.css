@@ -6,7 +6,20 @@
 
  body {
     overflow-x: hidden;
+    font-size: 20px;
  }
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+textarea {
+    height: 50vh;
+}
+
 
 /* Toggle Styles */
 

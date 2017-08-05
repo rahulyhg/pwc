@@ -1,4 +1,13 @@
         <h1>Video</h1>
-        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+        <form method="post">
+	        <p>
+	        	<input type="text" name="title" placeholder="Youtube URL">
+	        </p>
+	        <p>
+		        <textarea name="descricrtion" placeholder="Video descricrtion"></textarea>
+	        </p>
+	        <p>
+	        	<input type="submit" name="submit">
+	        </p>
+        </form>
     
