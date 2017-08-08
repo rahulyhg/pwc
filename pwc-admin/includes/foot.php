@@ -31,4 +31,8 @@
     $("#alertMessage i").click(function(e) {
         $("#alertMessage").remove()
     });
+
+    $(".fa-trash").click(function(){
+        return confirm("Are you sure you want to delete?");
+    })
     </script>

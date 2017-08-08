@@ -1,23 +1,30 @@
 <?php
-	
 
     include("../includes/init.php");
 
-    $query = "INSERT INTO videos (video_uri, video_description) VALUES ('". mysql_real_escape_string($_POST["video_description"]) ."', '". mysql_real_escape_string($_POST["video_description"]) ."')";
 
-	if (mysqli_query($conn, $query)) {
+    if (checkYoutube($_POST["video_uri"])) {
 
-		$_SESSION["message"] = "New video added";
+	    $query = "INSERT INTO videos (video_uri, video_description) VALUES ('". mysql_real_escape_string($_POST["video_uri"]) ."', '". mysql_real_escape_string($_POST["video_description"]) ."')";
 
-	} else {
+		if (mysqli_query($conn, $query)) {
 
-		$_SESSION["message"] = "Unable to add video";
+			$_SESSION["message"] = "New video added";
 
-	}
+		} else {
 
+			$_SESSION["message"] = "Unable to add video";
+
+		}
+
+    } else {
+
+    	$_SESSION["message"] = "Invalid video";
+
+    }
 
     header('Location: ' . $base_url . '?view=videos-list');
-    die;    
 
+    die;    
 
 ?>

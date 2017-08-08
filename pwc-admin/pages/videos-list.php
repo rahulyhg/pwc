@@ -7,7 +7,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 ?>
         <div class="div-row">
         <p>
-                <?=$row["video_uri"]?>
+                <a href="<?=$row["video_uri"]?>" target="_blank"><?=$row["video_uri"]?></a>
         </p>
         <p class="text-align-right">
                 <i style="float: left;">Posted on <?=$row["video_created_time"]?></i>
