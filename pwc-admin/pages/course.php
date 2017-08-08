@@ -1,4 +1,12 @@
-        <h1>Course</h1>
+        <h1><? 
+
+	        if (isset($_GET["id"])) { 
+	        	print("Update");
+	        } else { 
+	        	print("Add New");
+	        } 
+
+        ?> Course</h1>
         <form method="post">
 	        <p>
 	        	<input type="text" name="title" placeholder="Course title">

@@ -6,22 +6,22 @@
             </a>
         </li>
         <li>
-            <a href="<?=$base_url?>?view=article">Post New Article</a>
+            <a href="<?=$base_url?>?view=article">Add New Article</a>
         </li>
         <li>
             <a href="<?=$base_url?>?view=articles-list">Manage Articles</a>
         </li>
         <li>
-            <a href="<?=$base_url?>?view=video">Post Video</a>
+            <a href="<?=$base_url?>?view=video">Add New Video</a>
         </li>
         <li>
             <a href="<?=$base_url?>?view=videos-list">Manage Videos</a>
         </li>
         <li>
-            <a href="<?=$base_url?>?view=course">Post New Course</a>
+            <a href="<?=$base_url?>?view=camp">Add New Camp</a>
         </li>
         <li>
-            <a href="<?=$base_url?>?view=courses-list">Manage Courses</a>
+            <a href="<?=$base_url?>?view=camps-list">Manage camps</a>
         </li>
         <li>
             <a href="<?=$base_url?>?view=change-password">Change Password</a>

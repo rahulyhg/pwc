@@ -1,16 +1,20 @@
-        <h1>Video list</h1>
- <?
-for ($i=0; $i < 9; $i++) { 
+<?
+$result = mysqli_query($conn, "SELECT * FROM videos ORDER BY video_created_time DESC");
+?>
+        <h1>Videos list (<?=mysqli_num_rows($result)?>)</h1>
+<?
+while ($row = mysqli_fetch_assoc($result)) { 
 ?>
         <div class="div-row">
         <p>
-	        This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.
+                <?=$row["video_uri"]?>
         </p>
         <p class="text-align-right">
-        	<a href="#delete" class="fa fa-trash fa-2x"></a>
-        	<a href="#edit" class="fa fa-pencil-square fa-2x"></a>
+                <i style="float: left;">Posted on <?=$row["video_created_time"]?></i>
+                <a href="<?=$base_url?>action/delete-video.php?id=<?=base64_encode($row["video_id"])?>" class="fa fa-trash fa-2x"></a>
+                <a href="<?=$base_url?>?view=video&id=<?=base64_encode($row["video_id"])?>" class="fa fa-pencil-square fa-2x"></a>
         </p>
         </div>
 <?
-	}
+}
 ?>    

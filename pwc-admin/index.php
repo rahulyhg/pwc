@@ -39,12 +39,12 @@
                                 require("pages/change-password.php");
                                 break;
                             
-                            case "course":
-                                require("pages/course.php");
+                            case "camp":
+                                require("pages/camp.php");
                                 break;
                             
-                            case "courses-list":
-                                require("pages/courses-list.php");
+                            case "camps-list":
+                                require("pages/camps-list.php");
                                 break;
                             
                             case "video":
