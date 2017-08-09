@@ -1,8 +1,10 @@
 <?php
-require("../includes/head.php")
+
+    require("../includes/head.php");
+
+    $result = mysqli_query($conn, "SELECT * FROM videos ORDER BY video_created_time DESC");
+
 ?>
-
-
 <body>
     <!-- Navigation -->
     <?php
@@ -28,14 +30,14 @@ require("../includes/head.php")
             <div class="col-md-8">
                     <div class="row">
 <?
-    for ($i=0; $i<6; $i++) { 
+    while ($row = mysqli_fetch_assoc($result)) { 
 ?>
             <div class="col-lg-6 portfolio-item">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/<?=getYouTubeId($row["video_uri"])?>" frameborder="0" allowfullscreen></iframe>
                     <div class="card-block">
-                        <h4 class="card-title">Video Title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <!--<h4 class="card-title">Video Title</h4>-->
+                        <p class="card-text"><?=$row["video_description"]?></p>
                     </div>
                 </div>
             </div>

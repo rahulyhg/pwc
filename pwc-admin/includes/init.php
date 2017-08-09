@@ -1,6 +1,6 @@
 <?php
     
-    include("generic.php");
+    include_once("generic.php");
 
     $base_url = "http://" . $_SERVER['SERVER_NAME'] . "/";
 

@@ -27,20 +27,28 @@ require("../includes/head.php")
 
             <!-- Blog Entries Column -->
             <div class="col-md-8">
-
 <?
-    for ($i=0; $i<6; $i++) { 
+    $result = mysqli_query($conn, "SELECT * FROM blog_post ORDER BY blog_created_time DESC");
+    while ($row = mysqli_fetch_assoc($result)) { 
 ?>
 
                 <!-- Blog Post -->
                 <div class="card mb-4">
                     <!--<img class="card-img-top img-fluid" src="http://placehold.it/750x300" alt="<?=$row['post_title']?>">-->
                     <div class="card-block">
-                        <h2 class="card-title">Sample articles title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. </p>
-                        <a href="<?=$base_url?>blog-post.php" class="btn btn-primary">Read More &rarr;</a>
+                        <h2 class="card-title"><?=$row["blog_title"]?></h2>
+                        <p class="card-text"><?
+
+                        print(nl2br(trim(substr($row["blog_details"], 0, 300))));
+
+                        if (strlen($row["blog_details"]) > 300) {
+                            print("..");
+                        }
+
+                        ?></p>
+                        <a href="<?=$base_url?>updates/article.php?id=<?=base64_encode($row["blog_id"])?>" class="btn btn-primary">Read More &rarr;</a>
                     </div>
-                    <div class="card-footer text-muted">Posted on January 1, 2017</div>
+                    <div class="card-footer text-muted">Posted on <?=date("F j, Y, g:i a", strtotime($row["blog_created_time"]))?></div>
                 </div>
 
 <?php

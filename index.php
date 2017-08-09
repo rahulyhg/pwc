@@ -118,8 +118,8 @@ require("includes/head.php")
                 </ul>
                 <p>At Pragya Wellness Center we work on <b>energy field</b>, <b>diet</b> and <b>mental attitude</b> of the person. Working on the root of the problem is the basis of the healthy being. It is a holistic approach for Physical, Mental wellness and Spritual enlightenment</p>
                 <p class="text-align-right">
-                    <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                    <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
+                    <a href="<?=$base_url?>updates/meet.php" class="btn btn-primary fa fa-info-circle"></a>
+                    <a href="<?=$base_url?>center/courses.php" class="btn btn-primary">Join now</a>
                 </p>
             </div>
         </div>
@@ -148,8 +148,8 @@ require("includes/head.php")
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
-                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>updates/meet.php" class="btn btn-primary fa fa-info-circle"></a>
+                        <a href="<?=$base_url?>center/courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -162,8 +162,8 @@ require("includes/head.php")
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
-                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>updates/meet.php" class="btn btn-primary fa fa-info-circle"></a>
+                        <a href="<?=$base_url?>center/courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -176,8 +176,8 @@ require("includes/head.php")
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
-                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>updates/meet.php" class="btn btn-primary fa fa-info-circle"></a>
+                        <a href="<?=$base_url?>center/courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
@@ -190,8 +190,8 @@ require("includes/head.php")
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
-                        <a href="#" class="btn btn-primary fa fa-info-circle"></a>
-                        <a href="<?=$base_url?>courses.php" class="btn btn-primary">Join now</a>
+                        <a href="<?=$base_url?>updates/meet.php" class="btn btn-primary fa fa-info-circle"></a>
+                        <a href="<?=$base_url?>center/courses.php" class="btn btn-primary">Join now</a>
                     </div>
                 </div>
             </div>
