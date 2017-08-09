@@ -6,7 +6,7 @@
 	$endDate = date("Y-m-d H:i:s", strtotime($_POST["camp_end_date"]));
 
 
-	if (mysqli_query($conn, "INSERT INTO camps (camp_title, camp_city, camp_detail, camp_scheduled_date, camp_end_date) VALUES ('". mysql_real_escape_string($_POST["camp_title"]) ."', '". mysql_real_escape_string($_POST["camp_city"]) ."', '". mysql_real_escape_string($_POST["camp_detail"]) ."', '". $startDate ."', '". $endDate ."')")) {
+	if (mysqli_query($conn, "INSERT INTO camps (camp_title, camp_city, camp_detail, camp_scheduled_date, camp_end_date) VALUES ('". mysqli_real_escape_string($conn,  $_POST["camp_title"]) ."', '". mysqli_real_escape_string($conn,  $_POST["camp_city"]) ."', '". mysqli_real_escape_string($conn,  $_POST["camp_detail"]) ."', '". $startDate ."', '". $endDate ."')")) {
 
 		$_SESSION["message"] = "New camp created";
 

@@ -3,7 +3,7 @@
     include("../includes/init.php");
 
 
-	if (mysqli_query($conn, "INSERT INTO blog_post (blog_details, blog_title) VALUES ('". mysql_real_escape_string($_POST["blog_details"]) ."', '". mysql_real_escape_string($_POST["blog_title"]) ."')")) {
+	if (mysqli_query($conn, "INSERT INTO blog_post (blog_details, blog_title) VALUES ('". mysqli_real_escape_string($conn,  $_POST["blog_details"]) ."', '". mysqli_real_escape_string($conn,  $_POST["blog_title"]) ."')")) {
 
 		$_SESSION["message"] = "New article created";
 

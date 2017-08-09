@@ -5,7 +5,7 @@
 
     if (checkYoutube($_POST["video_uri"])) {
 
-	    $query = "INSERT INTO videos (video_uri, video_description) VALUES ('". mysql_real_escape_string($_POST["video_uri"]) ."', '". mysql_real_escape_string($_POST["video_description"]) ."')";
+	    $query = "INSERT INTO videos (video_uri, video_description) VALUES ('". mysqli_real_escape_string($conn,  $_POST["video_uri"]) ."', '". mysqli_real_escape_string($conn,  $_POST["video_description"]) ."')";
 
 		if (mysqli_query($conn, $query)) {
 
