@@ -41,10 +41,10 @@ require("../includes/head.php")
                   Jaipur - 19, Rajasthan, India
                 </p>
                 <p>
-                    <abbr title="Phone">P</abbr>: +91-9414072157
+                    <abbr title="Phone">P</abbr>: <a href="tel:+91-9414072157">+91-9414072157</a>
                 </p>
                 <p>
-                    <abbr title="Email">E</abbr>: <a href="<?=$base_url?>mailto:info@pragyawellness.com">info@pragyawellness.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:info@pragyawellness.com">info@pragyawellness.com</a>
                 </p>
                 <p>
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM

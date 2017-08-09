@@ -20,7 +20,7 @@ require("../includes/head.php")
                 <a href="<?=$base_url?>index.php">Home</a>
             </li>
             <li class="breadcrumb-item">
-                <a href="<?=$base_url?>read.php">Read</a>
+                <a href="<?=$base_url?>updates/read.php">Read</a>
             </li>
             <li class="breadcrumb-item active">Article</li>
         </ol>
