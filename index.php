@@ -144,7 +144,8 @@ require("includes/head.php")
                     <div class="card-header"><b>4-Day Basic Course</b></div>
                     <div class="card-block">
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            Workshop for Omkar Sadhna and Yog Nidra, 2 hours per day in morning/evening.
+                            Introduction and motivation for wellness dite and healthy lifestyle.
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
@@ -158,7 +159,7 @@ require("includes/head.php")
                     <div class="card-header"><b>4-Day Advance Course</b></div>
                     <div class="card-block">
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            Residentail course for ways to make your mind Calm and Peaceful. Learn how to develop positive attitude. Advanced level of Manoyog Sadhana.
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
@@ -172,7 +173,7 @@ require("includes/head.php")
                     <div class="card-header"><b>10-Day Advance Course</b></div>
                     <div class="card-block">
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            Long term residentail course for overall development, positive atitude and Spritual wellbeing. Advanced level of Manoyog Sadhana.
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
@@ -186,7 +187,7 @@ require("includes/head.php")
                     <div class="card-header"><b>Living Together Program</b></div>
                     <div class="card-block">
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            Complete family get together with Guruji. Learn how does one manage to fill the generation gap between parents and children. Unique family reunion activities
                         </p>
                     </div>
                     <div class="card-footer text-align-right">
